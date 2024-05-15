@@ -27,3 +27,14 @@ Features
 8. Browse audiobooks by category.
 9. Filter audiobooks by price, language, new release, and duration.
 10. Search audiobooks by title or author name.
+
+
+
+...ENV
+MONGODB_URI=mongodb://127.0.0.1:27017/user
+PORT=3001
+ACCESS_TOKEN_SECRET=thisisJWTSECRETTOKENTHISSHOUDLBE32bit
+REFRESH_TOKEN_SECRET=thisisJWTSECRETTOKENTHISSHOUDLBE32bit
+ACCESS_TOKEN_EXPIRY=1h
+REFRESH_TOKEN_EXPIRY=1d
+ORIGIN=*
